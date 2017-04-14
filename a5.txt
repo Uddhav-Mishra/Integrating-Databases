@@ -1,0 +1,13 @@
+<!ELEMENT person (name, age, address)>
+<!ELEMENT name (fname, lname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT age (#integer)>
+<!ELEMENT address (house, street, city)>
+<!ELEMENT house (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT alien (name,age)>
+<!ELEMENT courses (cs,eee) >
+<!ELEMENT cs (#PCDATA)>
+<!ELEMENT eee (#PCDATA)>
