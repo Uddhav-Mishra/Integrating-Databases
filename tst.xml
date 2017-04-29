@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+
+<book>
+  <title>bookname</title>
+  <price>cost</price>
+  <author>writtenby</author>
+  <filename>book_details</filename>
+  <initialinf>book</initialinf>
+  <dbname>null</dbname>
+  <tbname>null</tbname>
+</book>
+
+<book >
+  <title>book_title</title>
+  <price>rate</price>
+  <author>writer</author>
+   <filename>null</filename>
+   <initialinf>data/book</initialinf>
+   <dbname>book_manager</dbname>
+   <tbname>books</tbname>
+</book>
+
+</bookstore>
